@@ -9,17 +9,17 @@ There is not much I dislike more than alarm clocks. It seems as though the only 
 A few other useful features were added including a snooze button and a count down timer.
 # Hardware Diagram
 <p align="center">
-  <img src="https://github.com/NoahMit/AlarmClock/blob/master/hardware%20diagram.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/master/hardware%20diagram.png?raw=true" alt="Sublime's custom image"/>
 </p>
 <br />
 
 # Web App
 <p align="center">
-  <img src="https://github.com/NoahMit/AlarmClock/blob/master/frontend%20demo.gif?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/master/frontend%20demo.gif?raw=true" alt="Sublime's custom image"/>
 </p>
 <br />
 <p align="center">
-  <img src="https://github.com/NoahMit/AlarmClock/blob/master/functionality%20diagram.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/master/functionality%20diagram.png?raw=true" alt="Sublime's custom image"/>
 </p>
 <br />
 
