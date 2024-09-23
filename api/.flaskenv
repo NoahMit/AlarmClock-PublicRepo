@@ -1,0 +1,5 @@
+FLASK_APP=api.py
+FLASK_ENV=development
+FLASK_DEBUG=true
+FLASK_RUN_HOST=ip.address
+PYTHONUNBUFFERED=true
