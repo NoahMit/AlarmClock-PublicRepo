@@ -15,11 +15,11 @@ A few other useful features were added including a snooze button and a count dow
 
 # Web App
 <p align="center">
-  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/master/frontend%20demo.gif?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/frontend%20demo.gif?raw=true" alt="Sublime's custom image"/>
 </p>
 <br />
 <p align="center">
-  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/master/functionality%20diagram.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/functionality%20diagram.png?raw=true" alt="Sublime's custom image"/>
 </p>
 <br />
 
