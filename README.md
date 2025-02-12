@@ -66,3 +66,11 @@ First the RPI sends IR signals to turn OFF the TV and the speakers via the Linux
 Despite this being a great learning experience, I have since discovered [Home Assistant OS](https://www.home-assistant.io/) and migrated all functionality to this platform. This was ultimately a good decision since it not only has great community support and customizability, but also makes for easier integration and expandability. One such example is the use of the [ESPHome](https://esphome.io/index.html) add-on and an ESP32 microcontroller to control the IR blaster board over wifi. In fact, the ESP32 microcontroller can be seen in the hardware diagram!
 ## Custom Designed Motorized Blind Open/Closer
 I also created a CAD of a "motorized blind open and closer" which functions using DC motors and a timing belt. Design has yet to be practically tested, but all compponents are based off of locally available hardware and the housing was also designed with 3D printing in mind. [Click Here](https://docs.google.com/document/d/1IwYJwbTCMg_Ve3J27OVDtcUxCwYUtcjWsHEzNl1jxyE/edit?usp=sharing) to view more about this project!
+
+<p align="center">
+  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/belt%20driver%20module%20animation.gif?raw=true"/>
+</p>
+<p align="center">
+  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/blind2belt%20mechanism%20animation.gif?raw=true"/>
+</p>
+<br />
