@@ -69,8 +69,6 @@ I also created a CAD of a "motorized blind open and closer" which functions usin
 
 <p align="center">
   <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/belt%20driver%20module%20animation.gif?raw=true"/>
-</p>
-<p align="center">
   <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/blind2belt%20mechanism%20animation.gif?raw=true"/>
 </p>
 <br />
