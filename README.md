@@ -67,8 +67,8 @@ Despite this being a great learning experience, I have since discovered [Home As
 ## Custom Designed Motorized Blind Open/Closer
 I also created a CAD of a "motorized blind open and closer" which functions using DC motors and a timing belt. Design has yet to be practically tested, but all compponents are based off of locally available hardware and the housing was also designed with 3D printing in mind. [Click Here](https://docs.google.com/document/d/1IwYJwbTCMg_Ve3J27OVDtcUxCwYUtcjWsHEzNl1jxyE/edit?usp=sharing) to view more about this project!
 
-<p float="left">
-  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/belt%20driver%20module%20animation.gif?raw=true"/>
-  <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/blind2belt%20mechanism%20animation.gif?raw=true"/>
+<p float="left" align="middle">
+  <img align="top" src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/belt%20driver%20module%20animation.gif?raw=true" width="50%"/>
+  <img align="top" src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/blind2belt%20mechanism%20animation.gif?raw=true" width="50%"/>
 </p>
 <br />
