@@ -1,12 +1,12 @@
 # Custom RPI Based Alarm Clock
-There is not much I dislike more than alarm clocks. It seems as though the only options out there are annoying songs being played out of tinny speakers, and who wants to be annoyed by this the moment they wake up. So, I decided to take into my own hands and create an alarm clock that provides a more delightful awakening. To achieve this I set some simple requirements: <br />
+There is not much I dislike more than alarm clocks. It seems as though the only options out there are annoying sirens being played out of tinny speakers, and who wants to be annoyed the moment they wake up. Therefore, I decided to take it into my own hands to solve this problem, and create an alarm clock that provides a more **delightful** awakening. To achieve this I set some simple requirements: <br />
 - Alarm sound must be randomly selected songs from a premade playlist
 - Volume must gradually increase
 - Good quality speakers
 - Web App to set the Alarm
 
 
-A few other useful features were added including a snooze button and a count down timer.
+A few other useful features were added: a snooze button, a count down timer, and an on/off switch for the media devices involved.
 # Hardware Diagram
 <p align="center">
   <img src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/hardware%20diagram.png?raw=true"/>
@@ -23,10 +23,10 @@ A few other useful features were added including a snooze button and a count dow
 <br />
 
 ## turn_on_room.py
-First the RPI sends IR signals to turn ON the TV and the speakers via the Linux Infrared Remote Control (LIRC) package. Then, the RPI will turn ON the PC via the ethernet cable connecting the two computers by using a WakeOnLan command.
+First the RPI sends IR signals to turn **on** the TV and bookshelf speakers via the Linux Infrared Remote Control (LIRC) package and a custom made IR blaster. Then, the RPI will turn **on** the PC via an ethernet cable connecting the two computers and the a WakeOnLan command.
 
 ## turn_off_room.py
-First the RPI sends IR signals to turn OFF the TV and the speakers via the Linux Infrared Remote Control (LIRC) package. Then, the RPI will turn OFF the PC via a Linux Samba-Common package command and WIndows' Remote Shut Down.
+First the RPI sends IR signals to turn **off** the TV and bookshelf speakers via the Linux Infrared Remote Control (LIRC) package. Then, the RPI will turn **off** the PC via a Linux Samba-Common package command and Windows' Remote Shut Down.
 
 ## Alarm.py
 <ins>**DATA ATTRIBUTES**</ins>
@@ -63,8 +63,8 @@ First the RPI sends IR signals to turn OFF the TV and the speakers via the Linux
 # Update on the Project
 ## Home Assistant OS
 Despite this being a great learning experience, I have since discovered [Home Assistant OS](https://www.home-assistant.io/) and migrated all functionality to this platform. This OS has exceptional community support and customizability, which makes for easier integration and expandability. One such example is the use of the [ESPHome](https://esphome.io/index.html) add-on and an ESP32 microcontroller to control the IR blaster board over wifi. In fact, the ESP32 microcontroller can be seen in the hardware diagram!
-## Custom Designed Motorized Blind Open/Closer
-I also created a CAD of a "motorized blind opener/closer", which functions using DC motors and a timing belt. The design has yet to be implemented, but it was intentionally built around locally available, "off-the-shelf" hardware to make the realization of this project easily achieveable. Additionally, "practical 3D printing" was at the forefront of each design decision, also contributing to the success and feasibility of this project. [Click Here](https://docs.google.com/document/d/1IwYJwbTCMg_Ve3J27OVDtcUxCwYUtcjWsHEzNl1jxyE/edit?usp=sharing) to view more about this project!
+## Custom Designed Motorized Blind Opener/Closer
+I have since started a spin-off project to add automatic blind opening and closing funcitonality to this system. So far, I have created a CAD of the "motorized blind opener/closer" mechanism, which functions using DC motors and a timing belt. The design has yet to be implemented, but it was intentionally built around locally available, "off-the-shelf" hardware to make the realization of this project easily achieveable. Additionally, "practical 3D printing" was at the forefront of each design decision, also contributing to the success and feasibility of this project. [Click Here](https://docs.google.com/document/d/1IwYJwbTCMg_Ve3J27OVDtcUxCwYUtcjWsHEzNl1jxyE/edit?usp=sharing) to view more about this project!
 
 <p float="left" align="middle">
   <img align="middle" src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/belt%20driver%20module%20animation.gif?raw=true" width="40%"/>
