@@ -72,3 +72,4 @@ I also created a CAD of a "motorized blind open and closer" which functions usin
   <img align="middle" src="https://github.com/NoahMit/AlarmClock-PublicRepo/blob/main/blind2belt%20mechanism%20animation.gif?raw=true" width="40%"/>
 </p>
 <br />
+<p float="left" align="middle">CAD was done in TinkerCAD and animations were made in Blender.</p>
