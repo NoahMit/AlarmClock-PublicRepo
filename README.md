@@ -63,7 +63,7 @@ First the RPI sends IR signals to turn **off** the TV and bookshelf speakers via
 # Update on the Project
 ## Home Assistant OS
 Despite this being a great learning experience, I have since discovered [Home Assistant OS](https://www.home-assistant.io/) and migrated all functionality to this platform. This OS has exceptional community support and customizability, which makes for easier integration and expandability. One such example is the use of the [ESPHome](https://esphome.io/index.html) add-on and an ESP32 microcontroller to control the IR blaster board over wifi. In fact, the ESP32 microcontroller can be seen in the hardware diagram!
-## Custom Designed Motorized Blind Opener/Closer
+## Motorized Blind Opener/Closer
 I have since started a spin-off project to add automatic blind opening and closing funcitonality to this system. So far, I have created a CAD of the "motorized blind opener/closer" mechanism, which functions using DC motors and a timing belt. The design has yet to be implemented, but it was intentionally built around locally available, "off-the-shelf" hardware to make the realization of this project easily achieveable. Additionally, "practical 3D printing" was at the forefront of each design decision, also contributing to the success and feasibility of this project. [Click Here](https://docs.google.com/document/d/1IwYJwbTCMg_Ve3J27OVDtcUxCwYUtcjWsHEzNl1jxyE/edit?usp=sharing) to view more about this project!
 
 <p float="left" align="middle">
